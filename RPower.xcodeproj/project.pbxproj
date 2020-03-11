@@ -9,25 +9,112 @@
 /* Begin PBXBuildFile section */
 		F30AA48024002AC60008C07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AA47F24002AC60008C07A /* AppDelegate.swift */; };
 		F30AA48224002AC60008C07A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AA48124002AC60008C07A /* SceneDelegate.swift */; };
-		F30AA48424002AC60008C07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AA48324002AC60008C07A /* ViewController.swift */; };
-		F30AA48724002AC60008C07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30AA48524002AC60008C07A /* Main.storyboard */; };
+		F30AA48424002AC60008C07A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AA48324002AC60008C07A /* LoginViewController.swift */; };
 		F30AA48924002AC80008C07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30AA48824002AC80008C07A /* Assets.xcassets */; };
 		F30AA48C24002AC80008C07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30AA48A24002AC80008C07A /* LaunchScreen.storyboard */; };
+		F30AA49724005B3B0008C07A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AA49624005B3B0008C07A /* ForgotPasswordViewController.swift */; };
+		F30AA49924005B490008C07A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AA49824005B490008C07A /* SignUpViewController.swift */; };
+		F321EFED24180C70006B0FF9 /* RPowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321EFEC24180C70006B0FF9 /* RPowerTests.swift */; };
+		F35D010124078802003596FF /* BaseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D010024078802003596FF /* BaseClassController.swift */; };
+		F35D010524099601003596FF /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D010424099601003596FF /* RestManager.swift */; };
+		F35D0107240C8BC6003596FF /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0106240C8BC6003596FF /* APIRequest.swift */; };
+		F35D0109240DD76A003596FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0108240DD76A003596FF /* User.swift */; };
+		F35D010F240EB4B9003596FF /* DailyPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D010E240EB4B9003596FF /* DailyPoints.swift */; };
+		F35D011A240EC492003596FF /* TotalPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0119240EC492003596FF /* TotalPoints.swift */; };
+		F35D011D240ECE1D003596FF /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D011C240ECE1D003596FF /* UserProgress.swift */; };
+		F35D011F240EFD17003596FF /* PointsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D011E240EFD17003596FF /* PointsTable.swift */; };
+		F35D0121240F5342003596FF /* PointsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35D0120240F5342003596FF /* PointsTableViewCell.xib */; };
+		F35D0123240F67CF003596FF /* PointsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0122240F67CF003596FF /* PointsTableViewCell.swift */; };
+		F35D0125240FFC0E003596FF /* RecentDeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0124240FFC0E003596FF /* RecentDeeds.swift */; };
+		F35E975524043B910092B828 /* MostRecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E975424043B910092B828 /* MostRecentViewController.swift */; };
+		F35E975724043BA00092B828 /* AddPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E975624043BA00092B828 /* AddPointsViewController.swift */; };
+		F35E975924043BAD0092B828 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E975824043BAD0092B828 /* FavoritesViewController.swift */; };
+		F35E975B24043BD20092B828 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E975A24043BD20092B828 /* SettingsViewController.swift */; };
+		F35E975D240444560092B828 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E975C240444560092B828 /* ChatViewController.swift */; };
+		F35E975F240448FD0092B828 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E975E240448FD0092B828 /* AddFriendViewController.swift */; };
+		F35E9763240465A30092B828 /* ScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E9762240465A30092B828 /* ScoreBoardViewController.swift */; };
+		F35E9765240473AD0092B828 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E9764240473AD0092B828 /* HomeViewController.swift */; };
+		F35E97672405BE670092B828 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E97662405BE670092B828 /* MenuViewController.swift */; };
+		F35E97692406F8840092B828 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E97682406F8840092B828 /* SlideInTransition.swift */; };
+		F3B5BC6D2412B4BD008FD0F1 /* URLStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5BC6C2412B4BD008FD0F1 /* URLStrings.swift */; };
+		F3C851642415CE5700BB408A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C851632415CE5700BB408A /* Constants.swift */; };
+		F3C851662416D64F00BB408A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C851652416D64F00BB408A /* Main.storyboard */; };
+		F3C851682417E6C000BB408A /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C851672417E6C000BB408A /* PointsViewController.swift */; };
+		F3F57D9324101BEB00EFA9C1 /* FavoriteDeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57D9224101BEB00EFA9C1 /* FavoriteDeeds.swift */; };
+		F3F57D96241038A300EFA9C1 /* FriendRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57D94241038A300EFA9C1 /* FriendRequestTableViewCell.swift */; };
+		F3F57D97241038A300EFA9C1 /* FriendRequestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F57D95241038A300EFA9C1 /* FriendRequestTableViewCell.xib */; };
+		F3F57D9924103D8B00EFA9C1 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57D9824103D8B00EFA9C1 /* Friends.swift */; };
+		F3F57D9B24103E7300EFA9C1 /* FriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57D9A24103E7300EFA9C1 /* FriendRequest.swift */; };
+		F3F57D9E2410534700EFA9C1 /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57D9D2410534700EFA9C1 /* RequestResult.swift */; };
+		F3F57DA024119CE900EFA9C1 /* ChatMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F57D9F24119CE900EFA9C1 /* ChatMessages.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F321EFEF24180C70006B0FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30AA47424002AC60008C07A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30AA47B24002AC60008C07A;
+			remoteInfo = RPower;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F30AA47C24002AC60008C07A /* RPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30AA47F24002AC60008C07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F30AA48124002AC60008C07A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F30AA48324002AC60008C07A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F30AA48624002AC60008C07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30AA48324002AC60008C07A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F30AA48824002AC80008C07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30AA48B24002AC80008C07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F30AA48D24002AC80008C07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30AA49624005B3B0008C07A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F30AA49824005B490008C07A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F321EFEA24180C70006B0FF9 /* RPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F321EFEC24180C70006B0FF9 /* RPowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPowerTests.swift; sourceTree = "<group>"; };
+		F321EFEE24180C70006B0FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35D010024078802003596FF /* BaseClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassController.swift; sourceTree = "<group>"; };
+		F35D010424099601003596FF /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		F35D0106240C8BC6003596FF /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		F35D0108240DD76A003596FF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F35D010E240EB4B9003596FF /* DailyPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPoints.swift; sourceTree = "<group>"; };
+		F35D0119240EC492003596FF /* TotalPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPoints.swift; sourceTree = "<group>"; };
+		F35D011C240ECE1D003596FF /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		F35D011E240EFD17003596FF /* PointsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTable.swift; sourceTree = "<group>"; };
+		F35D0120240F5342003596FF /* PointsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointsTableViewCell.xib; sourceTree = "<group>"; };
+		F35D0122240F67CF003596FF /* PointsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTableViewCell.swift; sourceTree = "<group>"; };
+		F35D0124240FFC0E003596FF /* RecentDeeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentDeeds.swift; sourceTree = "<group>"; };
+		F35E975424043B910092B828 /* MostRecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostRecentViewController.swift; sourceTree = "<group>"; };
+		F35E975624043BA00092B828 /* AddPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPointsViewController.swift; sourceTree = "<group>"; };
+		F35E975824043BAD0092B828 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F35E975A24043BD20092B828 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F35E975C240444560092B828 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F35E975E240448FD0092B828 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		F35E9762240465A30092B828 /* ScoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardViewController.swift; sourceTree = "<group>"; };
+		F35E9764240473AD0092B828 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F35E97662405BE670092B828 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F35E97682406F8840092B828 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		F3B5BC6C2412B4BD008FD0F1 /* URLStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLStrings.swift; sourceTree = "<group>"; };
+		F3C851632415CE5700BB408A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3C851652416D64F00BB408A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		F3C851672417E6C000BB408A /* PointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointsViewController.swift; path = ../../../../.Trash/PointsViewController.swift; sourceTree = "<group>"; };
+		F3F57D9224101BEB00EFA9C1 /* FavoriteDeeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDeeds.swift; sourceTree = "<group>"; };
+		F3F57D94241038A300EFA9C1 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
+		F3F57D95241038A300EFA9C1 /* FriendRequestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendRequestTableViewCell.xib; sourceTree = "<group>"; };
+		F3F57D9824103D8B00EFA9C1 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		F3F57D9A24103E7300EFA9C1 /* FriendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequest.swift; sourceTree = "<group>"; };
+		F3F57D9D2410534700EFA9C1 /* RequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResult.swift; sourceTree = "<group>"; };
+		F3F57D9F24119CE900EFA9C1 /* ChatMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F30AA47924002AC60008C07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F321EFE724180C70006B0FF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F30AA47E24002AC60008C07A /* RPower */,
+				F321EFEB24180C70006B0FF9 /* RPowerTests */,
 				F30AA47D24002AC60008C07A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				F30AA47C24002AC60008C07A /* RPower.app */,
+				F321EFEA24180C70006B0FF9 /* RPowerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +145,97 @@
 		F30AA47E24002AC60008C07A /* RPower */ = {
 			isa = PBXGroup;
 			children = (
+				F3B5BC6B2412B4A7008FD0F1 /* Constants */,
+				F35D010A240DD833003596FF /* View Model */,
+				F30AA49324005A8B0008C07A /* Model */,
+				F30AA49424005A9C0008C07A /* View */,
+				F30AA49524005AAE0008C07A /* Controller */,
 				F30AA47F24002AC60008C07A /* AppDelegate.swift */,
+				F35E97682406F8840092B828 /* SlideInTransition.swift */,
 				F30AA48124002AC60008C07A /* SceneDelegate.swift */,
-				F30AA48324002AC60008C07A /* ViewController.swift */,
-				F30AA48524002AC60008C07A /* Main.storyboard */,
+				F3C851652416D64F00BB408A /* Main.storyboard */,
 				F30AA48824002AC80008C07A /* Assets.xcassets */,
 				F30AA48A24002AC80008C07A /* LaunchScreen.storyboard */,
 				F30AA48D24002AC80008C07A /* Info.plist */,
+				F35D010424099601003596FF /* RestManager.swift */,
 			);
 			path = RPower;
+			sourceTree = "<group>";
+		};
+		F30AA49324005A8B0008C07A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F35D0108240DD76A003596FF /* User.swift */,
+				F35D010E240EB4B9003596FF /* DailyPoints.swift */,
+				F35D0119240EC492003596FF /* TotalPoints.swift */,
+				F35D011C240ECE1D003596FF /* UserProgress.swift */,
+				F35D011E240EFD17003596FF /* PointsTable.swift */,
+				F35D0124240FFC0E003596FF /* RecentDeeds.swift */,
+				F3F57D9224101BEB00EFA9C1 /* FavoriteDeeds.swift */,
+				F3F57D9824103D8B00EFA9C1 /* Friends.swift */,
+				F3F57D9A24103E7300EFA9C1 /* FriendRequest.swift */,
+				F3F57D9D2410534700EFA9C1 /* RequestResult.swift */,
+				F3F57D9F24119CE900EFA9C1 /* ChatMessages.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F30AA49424005A9C0008C07A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F35D0120240F5342003596FF /* PointsTableViewCell.xib */,
+				F35D0122240F67CF003596FF /* PointsTableViewCell.swift */,
+				F3F57D94241038A300EFA9C1 /* FriendRequestTableViewCell.swift */,
+				F3F57D95241038A300EFA9C1 /* FriendRequestTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F30AA49524005AAE0008C07A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F30AA48324002AC60008C07A /* LoginViewController.swift */,
+				F30AA49624005B3B0008C07A /* ForgotPasswordViewController.swift */,
+				F30AA49824005B490008C07A /* SignUpViewController.swift */,
+				F35E975424043B910092B828 /* MostRecentViewController.swift */,
+				F35E975624043BA00092B828 /* AddPointsViewController.swift */,
+				F35E975824043BAD0092B828 /* FavoritesViewController.swift */,
+				F35E975A24043BD20092B828 /* SettingsViewController.swift */,
+				F35E975C240444560092B828 /* ChatViewController.swift */,
+				F35E975E240448FD0092B828 /* AddFriendViewController.swift */,
+				F35E9762240465A30092B828 /* ScoreBoardViewController.swift */,
+				F35E9764240473AD0092B828 /* HomeViewController.swift */,
+				F35E97662405BE670092B828 /* MenuViewController.swift */,
+				F35D010024078802003596FF /* BaseClassController.swift */,
+				F3C851672417E6C000BB408A /* PointsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F321EFEB24180C70006B0FF9 /* RPowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F321EFEC24180C70006B0FF9 /* RPowerTests.swift */,
+				F321EFEE24180C70006B0FF9 /* Info.plist */,
+			);
+			path = RPowerTests;
+			sourceTree = "<group>";
+		};
+		F35D010A240DD833003596FF /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				F35D0106240C8BC6003596FF /* APIRequest.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		F3B5BC6B2412B4A7008FD0F1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5BC6C2412B4BD008FD0F1 /* URLStrings.swift */,
+				F3C851632415CE5700BB408A /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +258,24 @@
 			productReference = F30AA47C24002AC60008C07A /* RPower.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F321EFE924180C70006B0FF9 /* RPowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F321EFF324180C70006B0FF9 /* Build configuration list for PBXNativeTarget "RPowerTests" */;
+			buildPhases = (
+				F321EFE624180C70006B0FF9 /* Sources */,
+				F321EFE724180C70006B0FF9 /* Frameworks */,
+				F321EFE824180C70006B0FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F321EFF024180C70006B0FF9 /* PBXTargetDependency */,
+			);
+			name = RPowerTests;
+			productName = RPowerTests;
+			productReference = F321EFEA24180C70006B0FF9 /* RPowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +288,10 @@
 				TargetAttributes = {
 					F30AA47B24002AC60008C07A = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					F321EFE924180C70006B0FF9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F30AA47B24002AC60008C07A;
 					};
 				};
 			};
@@ -116,6 +309,7 @@
 			projectRoot = "";
 			targets = (
 				F30AA47B24002AC60008C07A /* RPower */,
+				F321EFE924180C70006B0FF9 /* RPowerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +319,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35D0121240F5342003596FF /* PointsTableViewCell.xib in Resources */,
+				F3C851662416D64F00BB408A /* Main.storyboard in Resources */,
 				F30AA48C24002AC80008C07A /* LaunchScreen.storyboard in Resources */,
 				F30AA48924002AC80008C07A /* Assets.xcassets in Resources */,
-				F30AA48724002AC60008C07A /* Main.storyboard in Resources */,
+				F3F57D97241038A300EFA9C1 /* FriendRequestTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F321EFE824180C70006B0FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +341,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30AA48424002AC60008C07A /* ViewController.swift in Sources */,
+				F30AA49724005B3B0008C07A /* ForgotPasswordViewController.swift in Sources */,
+				F3C851642415CE5700BB408A /* Constants.swift in Sources */,
+				F35D011F240EFD17003596FF /* PointsTable.swift in Sources */,
+				F35D010124078802003596FF /* BaseClassController.swift in Sources */,
+				F3F57D9324101BEB00EFA9C1 /* FavoriteDeeds.swift in Sources */,
+				F35E97672405BE670092B828 /* MenuViewController.swift in Sources */,
+				F3F57DA024119CE900EFA9C1 /* ChatMessages.swift in Sources */,
+				F35E975724043BA00092B828 /* AddPointsViewController.swift in Sources */,
+				F35D010F240EB4B9003596FF /* DailyPoints.swift in Sources */,
+				F35E9763240465A30092B828 /* ScoreBoardViewController.swift in Sources */,
+				F35D010524099601003596FF /* RestManager.swift in Sources */,
+				F35E975924043BAD0092B828 /* FavoritesViewController.swift in Sources */,
+				F35E97692406F8840092B828 /* SlideInTransition.swift in Sources */,
+				F35D0123240F67CF003596FF /* PointsTableViewCell.swift in Sources */,
+				F3B5BC6D2412B4BD008FD0F1 /* URLStrings.swift in Sources */,
+				F3F57D9924103D8B00EFA9C1 /* Friends.swift in Sources */,
+				F35D0125240FFC0E003596FF /* RecentDeeds.swift in Sources */,
+				F30AA48424002AC60008C07A /* LoginViewController.swift in Sources */,
+				F35E9765240473AD0092B828 /* HomeViewController.swift in Sources */,
 				F30AA48024002AC60008C07A /* AppDelegate.swift in Sources */,
+				F3F57D96241038A300EFA9C1 /* FriendRequestTableViewCell.swift in Sources */,
 				F30AA48224002AC60008C07A /* SceneDelegate.swift in Sources */,
+				F35E975524043B910092B828 /* MostRecentViewController.swift in Sources */,
+				F3C851682417E6C000BB408A /* PointsViewController.swift in Sources */,
+				F30AA49924005B490008C07A /* SignUpViewController.swift in Sources */,
+				F35D011D240ECE1D003596FF /* UserProgress.swift in Sources */,
+				F35E975F240448FD0092B828 /* AddFriendViewController.swift in Sources */,
+				F35E975D240444560092B828 /* ChatViewController.swift in Sources */,
+				F35D0107240C8BC6003596FF /* APIRequest.swift in Sources */,
+				F3F57D9B24103E7300EFA9C1 /* FriendRequest.swift in Sources */,
+				F35D011A240EC492003596FF /* TotalPoints.swift in Sources */,
+				F35E975B24043BD20092B828 /* SettingsViewController.swift in Sources */,
+				F35D0109240DD76A003596FF /* User.swift in Sources */,
+				F3F57D9E2410534700EFA9C1 /* RequestResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F321EFE624180C70006B0FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F321EFED24180C70006B0FF9 /* RPowerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F30AA48524002AC60008C07A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F30AA48624002AC60008C07A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		F321EFF024180C70006B0FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30AA47B24002AC60008C07A /* RPower */;
+			targetProxy = F321EFEF24180C70006B0FF9 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		F30AA48A24002AC80008C07A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,12 +527,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKX8KEUZ6R;
 				INFOPLIST_FILE = RPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apress.RPower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwaremerchant.RPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,15 +545,56 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKX8KEUZ6R;
 				INFOPLIST_FILE = RPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apress.RPower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwaremerchant.RPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F321EFF124180C70006B0FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKX8KEUZ6R;
+				INFOPLIST_FILE = RPowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apress.RPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPower.app/RPower";
+			};
+			name = Debug;
+		};
+		F321EFF224180C70006B0FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKX8KEUZ6R;
+				INFOPLIST_FILE = RPowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apress.RPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPower.app/RPower";
 			};
 			name = Release;
 		};
@@ -331,6 +615,15 @@
 			buildConfigurations = (
 				F30AA49124002AC80008C07A /* Debug */,
 				F30AA49224002AC80008C07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F321EFF324180C70006B0FF9 /* Build configuration list for PBXNativeTarget "RPowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F321EFF124180C70006B0FF9 /* Debug */,
+				F321EFF224180C70006B0FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
