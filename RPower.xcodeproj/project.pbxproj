@@ -17,7 +17,6 @@
 		F321EFED24180C70006B0FF9 /* RPowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321EFEC24180C70006B0FF9 /* RPowerTests.swift */; };
 		F35D010124078802003596FF /* BaseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D010024078802003596FF /* BaseClassController.swift */; };
 		F35D010524099601003596FF /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D010424099601003596FF /* RestManager.swift */; };
-		F35D0107240C8BC6003596FF /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0106240C8BC6003596FF /* APIRequest.swift */; };
 		F35D0109240DD76A003596FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0108240DD76A003596FF /* User.swift */; };
 		F35D010F240EB4B9003596FF /* DailyPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D010E240EB4B9003596FF /* DailyPoints.swift */; };
 		F35D011A240EC492003596FF /* TotalPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D0119240EC492003596FF /* TotalPoints.swift */; };
@@ -72,9 +71,9 @@
 		F321EFEA24180C70006B0FF9 /* RPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F321EFEC24180C70006B0FF9 /* RPowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPowerTests.swift; sourceTree = "<group>"; };
 		F321EFEE24180C70006B0FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F321F034241BC900006B0FF9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F35D010024078802003596FF /* BaseClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassController.swift; sourceTree = "<group>"; };
 		F35D010424099601003596FF /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
-		F35D0106240C8BC6003596FF /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		F35D0108240DD76A003596FF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F35D010E240EB4B9003596FF /* DailyPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPoints.swift; sourceTree = "<group>"; };
 		F35D0119240EC492003596FF /* TotalPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPoints.swift; sourceTree = "<group>"; };
@@ -145,8 +144,8 @@
 		F30AA47E24002AC60008C07A /* RPower */ = {
 			isa = PBXGroup;
 			children = (
+				F321F035241BD316006B0FF9 /* Utility */,
 				F3B5BC6B2412B4A7008FD0F1 /* Constants */,
-				F35D010A240DD833003596FF /* View Model */,
 				F30AA49324005A8B0008C07A /* Model */,
 				F30AA49424005A9C0008C07A /* View */,
 				F30AA49524005AAE0008C07A /* Controller */,
@@ -183,6 +182,7 @@
 		F30AA49424005A9C0008C07A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F321F033241BC8EB006B0FF9 /* Storyboard */,
 				F35D0120240F5342003596FF /* PointsTableViewCell.xib */,
 				F35D0122240F67CF003596FF /* PointsTableViewCell.swift */,
 				F3F57D94241038A300EFA9C1 /* FriendRequestTableViewCell.swift */,
@@ -221,12 +221,19 @@
 			path = RPowerTests;
 			sourceTree = "<group>";
 		};
-		F35D010A240DD833003596FF /* View Model */ = {
+		F321F033241BC8EB006B0FF9 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				F35D0106240C8BC6003596FF /* APIRequest.swift */,
+				F321F034241BC900006B0FF9 /* Main.storyboard */,
 			);
-			path = "View Model";
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		F321F035241BD316006B0FF9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		F3B5BC6B2412B4A7008FD0F1 /* Constants */ = {
@@ -369,7 +376,6 @@
 				F35D011D240ECE1D003596FF /* UserProgress.swift in Sources */,
 				F35E975F240448FD0092B828 /* AddFriendViewController.swift in Sources */,
 				F35E975D240444560092B828 /* ChatViewController.swift in Sources */,
-				F35D0107240C8BC6003596FF /* APIRequest.swift in Sources */,
 				F3F57D9B24103E7300EFA9C1 /* FriendRequest.swift in Sources */,
 				F35D011A240EC492003596FF /* TotalPoints.swift in Sources */,
 				F35E975B24043BD20092B828 /* SettingsViewController.swift in Sources */,
